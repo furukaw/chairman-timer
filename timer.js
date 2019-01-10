@@ -94,10 +94,15 @@
     }
 
     resetButton.onclick = () => {
+        toWhite();
         running = false;
         started = null;
         stopped = null;
         wasted = 0;
+        froms = null;
+        tos = null;
+        blinking = false;
+        time = null;
         minuteElement.innerText = "00";
         secondElement.innerText = "00";
     }
