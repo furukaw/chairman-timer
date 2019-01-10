@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span class="input"><input type="text" placeholder="時刻１" id="time1">分</span>
+    <span class="input"><input type="text" placeholder="時刻２" id="time2">分</span>
+    <span class="input"><input type="text" placeholder="時刻３" id="time3">分</span>
+    <div id="clock">
+        <div id="minute" class="number">00</div><div class="colon">:</div><div class="number" id="second">00</div>
+    </div>
+    <button id="start" class="button">start</button>
+    <button id="stop" class="button">stop</button>
+    <button id="reset" class="button">reset</button>
+    <br><br>
+    <button id="dec" class="small-button">-1</button>
+    <button id="inc" class="small-button">+1</button>
+    <script src="timer.js"></script>
+</body>
+</html>

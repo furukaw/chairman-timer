@@ -1,0 +1,43 @@
+body {
+    font-family: monospace;
+    text-align: center;
+}
+
+.input {
+    font-size: 30px;
+    padding: 0 30px;
+}
+
+input {
+    font-size: 50px;
+    width: 240px;
+}
+
+#clock {
+    font-size: 300px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.colon {
+    display: inline-block;
+    width: 100px;
+    vertical-align: text-bottom;
+}
+
+.number {
+    display: inline-block;
+    width: 540px;
+}
+
+.button {
+    width: 340px;
+    height: 100px;
+    font-size: 60px;
+}
+
+.small-button {
+    width: 200px;
+    height: 60px;
+    font-size: 40px;
+}
